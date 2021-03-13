@@ -82,24 +82,27 @@ print(poletrapezu())
 # ile (ile elementów ma mnożyć)
 # Ponadto funkcja niech przyjmuje wartości domyślne: a = 1, b = 4, ile = 10
 print('#############ZAD6#############')
+#niestety mialem problem z tym zadaniem i nie udalo mi sie znalezc poprawnego rozwiazania
+
+#def iloczyn(*wartosci):
+#    if len(wartosci) != 3:
+#       print('Konieczne jest wpisanie trzech wartosci!')
+#       return -1
+#   else:
+#      wartosci = list(wartosci)
+#      lista = []
+#      ile[0] = ile[0] + 2
+#      lista.append(wartosci[0])
+#      for i in range(2, wartosci[2]):
+#         lista.append(i * wartosci[1])
+#         return lista
 
 
-def iloczyn(a=1, b=4, ile=10):
-    lista = []
-    ile += 2
-    lista.append(a)
-    for i in range(2, ile):
-        lista.append(i * b)
-    return lista
-
-
-print(iloczyn())
-print(iloczyn(3, 2, 7))
-print(iloczyn(2, 3, 5))
-
+#print(iloczyn(1,2,10))
+#print(iloczyn(1))
 # Zad7
 # Napisz funkcje za pomocą operatora *, która wykona te same działanie co w zadaniu 6.
-print('#############ZAD6#############')
+print('#############ZAD7#############')
 
 
 def iloczyn(a=1, b=4, ile=10):
@@ -120,6 +123,7 @@ print(iloczyn(2, 3, 5))
 # Napisz funkcję, która wykorzystuje symbol **.
 # Funkcja ma przyjmować listę zakupów w postaci: klucz to nazwa produktu a wartość to jego koszt.
 # Funkcja ma zliczyć ile jest wszystkich produktów w ogóle i zwracać całościową wartość tych produktów.
+print('#############ZAD8#############')
 
 
 def slownik(**wartosci):
@@ -134,6 +138,7 @@ print(slownik(wino=15, ocet=53, musztarda=32, chleb=12))
 # twórz pakiet ciągi.
 # Jeden moduł niech dotyczy działań i wzorów związanych z ciągami arytmetycznymi,
 # a drugi niech dotyczy działań i wzorów związanych z ciągami geometrycznymi.
+print('#############ZAD9#############')
 from ciagi import *
 
 print(arytmetyczne.ntywyrazaryt(2, 6, 3))
